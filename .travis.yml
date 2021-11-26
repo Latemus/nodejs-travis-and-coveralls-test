@@ -8,10 +8,6 @@ notifications:
 node_js:
   - "stable"
 
-before_install:
-  - npm install -g npm
-  - npm install coveralls
-
 script:
   - npm run rest
 
